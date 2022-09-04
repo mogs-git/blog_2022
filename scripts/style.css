@@ -18,7 +18,7 @@ a:hover {
     cursor:pointer;  
 }
 .intro-header {
-    font-size: 5rem;
+    font-size: 10vh;
 }
 
 .blog-post {
@@ -28,7 +28,7 @@ a:hover {
     'desc date';
 
     grid-template-columns: 1fr 1fr;
-    font-size: 1.5rem;
+    font-size: 3vh;
     /* border: solid black; */
     margin: 0.1vh;
     padding: 0.1vw;
@@ -95,7 +95,7 @@ nav {
 .navbar {
     display: flex;
     flex: 1;
-    font-size: 1vw;
+    font-size: 2vh;
     margin: 0.5vh;
     padding: 0.5vh;
     border-radius: 0.2vh;

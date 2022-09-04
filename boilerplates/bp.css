@@ -8,8 +8,7 @@ body {
 }
 
 .intro-header {
-    font-size: 5rem;
-    /* margin: 1rem; */
+    font-size: 6vh;
 }
 
 .content {
@@ -25,8 +24,15 @@ body {
     flex: 1
 }
 
+@media (max-width: 600px) {
+    .sidebar {
+      flex: 0;
+    }
+}
+
+
 #content {
-    font-size: 1.5rem;
+    font-size: 2.5vh;
 }
 
 a {
@@ -50,7 +56,7 @@ nav {
 .navbar {
     display: flex;
     flex: 1;
-    font-size: 1vw;
+    font-size: 2vh;
     margin: 0.5vh;
     padding: 0.5vh;
     border-radius: 0.2vh;
@@ -100,3 +106,7 @@ nav {
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
+
+img {
+    max-width: 100%;
+  }
