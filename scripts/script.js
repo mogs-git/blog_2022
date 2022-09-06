@@ -54,7 +54,7 @@ for (item in arr) {
 
     // blogpost.addEventListener("click", window.open(key, '_blank'))
     blog_anchor.setAttribute("href", arr[item].post_link);
-    blog_anchor.setAttribute("target", "_blank");
+    // blog_anchor.setAttribute("target", "_blank");
     blog_anchor.classList = "blog-anchor";
     blog_anchor.appendChild(blogpost)
     blogpost.appendChild(blogtitle)
