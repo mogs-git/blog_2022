@@ -1,3 +1,5 @@
 Organise and name assets for posts in a structured way.
 
 Add archived posts
+
+Migrate images to new netlify feature
