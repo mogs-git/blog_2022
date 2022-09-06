@@ -35,6 +35,21 @@ body {
     font-size: 2.5vh;
 }
 
+
+.img-block {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(219, 226, 233);
+}
+
+
+.img-caption {
+    font-size: 2vh;
+    margin: 0px;
+    font-style: italic;
+}
+
 a {
     color: inherit;
     text-decoration: none;
